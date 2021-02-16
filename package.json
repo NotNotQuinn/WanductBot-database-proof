@@ -2,13 +2,15 @@
   "name": "spamchat",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine JASMINE_CONFIG_PATH=jasmine.json"
   },
-  "author": "",
+  "author": "Quinn T",
   "license": "ISC",
   "dependencies": {
-    "dank-twitch-irc": "^4.3.0"
+    "dank-twitch-irc": "^4.3.0",
+    "jasmine": "^3.6.4",
+    "mariadb": "^2.5.2"
   }
 }
